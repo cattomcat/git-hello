@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Example {
     @RequestMapping("/")
     String home(){
-        return "hello git master V0.3";
+        return "hello git master V0.3  branch shane V0.2 merge";
     }
 
     public static void main(String[] args) throws Exception{
